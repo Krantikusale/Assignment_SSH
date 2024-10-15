@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LearnAutomation">
+  <test  name="Regression">
+    <classes>
+      <class name="seleniumGrid.Negative_Priority_TestNG"/>
+      <class name="seleniumGrid.AssertDemo"/>
+      <class name="seleniumGrid.Same_Priority_TestNG"/>
+      <class name="seleniumGrid.MyFirstTestNG"/>
+      <class name="seleniumGrid.TestNG2_AlphabeticOrderMethods"/>
+      <class name="seleniumGrid.SeleniumWithTestNG"/>
+      <class name="seleniumGrid.PartialText_TestNG"/>
+      <class name="seleniumGrid.With_Without_Priority_TestNG"/>
+    </classes>
+  </test> 
+</suite> 

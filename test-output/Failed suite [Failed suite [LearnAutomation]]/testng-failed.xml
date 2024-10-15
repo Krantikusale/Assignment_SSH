@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [LearnAutomation]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)(failed)(failed)">
+    <classes>
+      <class name="seleniumGrid.SeleniumWithTestNG">
+        <methods>
+          <include name="signOut"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- seleniumGrid.SeleniumWithTestNG -->
+      <class name="seleniumGrid.AssertDemo">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- seleniumGrid.AssertDemo -->
+      <class name="seleniumGrid.PartialText_TestNG">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- seleniumGrid.PartialText_TestNG -->
+    </classes>
+  </test> <!-- Regression(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [LearnAutomation]]] -->

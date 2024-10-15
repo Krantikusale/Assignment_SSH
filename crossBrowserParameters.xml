@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Suite">
+  <test  name="TestInChrome">
+	  <parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="ddt_Cross_Browser.CrossBrowserWithParameters"/>
+    </classes>
+  </test> 
+   
+  
+  
+  
+  <test  name="TestInFirefox">
+	  <parameter name="Browser" value="Firefox"></parameter>
+    <classes>
+      <class name="ddt_Cross_Browser.CrossBrowserWithParameters"/>
+    </classes>
+  </test>
+  
+  
+   <test  name="TestInEdge">
+	  <parameter name="Browser" value="Edge"></parameter>
+    <classes>
+      <class name="ddt_Cross_Browser.CrossBrowserWithParameters"/>
+    </classes>
+  </test>
+  
+  
+</suite> 
